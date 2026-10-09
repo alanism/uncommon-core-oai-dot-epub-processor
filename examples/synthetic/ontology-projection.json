@@ -1,0 +1,73 @@
+{
+  "ontology_version": "0.1.0-proposed",
+  "example_scope": "Synthetic design fixture only; not an executed model run or implemented schema",
+  "book": {
+    "id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "title": "Synthetic Field Notes",
+    "author": "Example Author",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "passage": {
+    "id": "passage:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "book_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "href": "OPS/chapter-01.xhtml",
+    "element_id": "observation-1",
+    "cfi": null,
+    "ordinal": 0,
+    "block_ordinal": 0,
+    "chunk_ordinal": 0,
+    "text": "Record a recent observation before forming a conclusion."
+  },
+  "source_snapshot": {
+    "job_id": "job:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "json_pointer": "/sources/0",
+    "text_storage": "Synthetic fixture source shown above"
+  },
+  "claim": {
+    "id": "fixture:claim:1",
+    "type": "Claim",
+    "text": "The source recommends collecting an observation before drawing a conclusion.",
+    "source_ids": [
+      "passage:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    ],
+    "kind": "source",
+    "uncertainty": "This short fixture supplies no evidence about how broadly the rule applies.",
+    "epistemic_mode": "source_paraphrase",
+    "support_review": "unreviewed",
+    "origin": {
+      "record": "synthetic-analysis.json",
+      "pointer": "/result/claims/0"
+    }
+  },
+  "lens": {
+    "id": "lens:philosopher:example-v1",
+    "type": "Lens",
+    "lens": "philosopher",
+    "focus": "Expert",
+    "depth": "MBA",
+    "status": "Proposed identifier; illustrative configuration"
+  },
+  "coverage": {
+    "selected_passages": 4,
+    "selected_analyzed_passages": 4,
+    "book_passages": 8,
+    "book_analyzed_passages": 4,
+    "whole_book_analysis_complete": false
+  },
+  "run": {
+    "job_id": "job:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "mode": "test-fixture",
+    "status": "illustrative_not_executed",
+    "receipt": null,
+    "attestation_level": "no_execution_claim"
+  },
+  "artifact": {
+    "id": "fixture:artifact:1",
+    "type": "sketchnote_image",
+    "artifact_ref": null,
+    "mime_type": "image/png",
+    "sha256": null,
+    "status": "Proposed only; no image bytes exist",
+    "synthesis_revision_id": null
+  }
+}
